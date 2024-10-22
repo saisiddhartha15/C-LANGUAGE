@@ -1,0 +1,20 @@
+#include <stdio.h>
+void main()
+{
+    int a1,a2;
+    printf("Enter two integers: ");
+    scanf("%d%d", &a1, &a2);
+    int big=a1>a2?a1:a2;
+    int step=big;
+    while(1)
+    {
+         if(big%a1==0 && big%a2==0)
+             break;
+         else
+         big=big+step;
+         
+    }
+    
+    printf("LCM is %d",big);
+   
+}
