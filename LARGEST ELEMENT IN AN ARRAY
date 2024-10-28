@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main()
 { 
-    int a[5]={1,2,31,2,3};
+    int a[5]={1,2,65,155,3};
     for(int i=1;i<5;i++)
      {
        a[0]= a[0]>a[i]?a[0]:a[i];
